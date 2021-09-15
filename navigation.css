@@ -1,0 +1,32 @@
+#navigationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em;
+  background-color: black;
+  border-bottom: 5px solid red;
+}
+#navigationUl {
+  display: flex;
+  margin-bottom: 0;
+}
+#navigationUl li,
+#logoschrift a {
+  list-style: none;
+  padding: 0 15px 0 15px;
+  font-family: "Righteous", cursive;
+  font-size: 1.4em;
+}
+#navigationUl li a,
+#logoschrift a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+#navigationUl li a:hover {
+  color: red;
+}
+#logoschrift a:hover {
+  color: red;
+}
