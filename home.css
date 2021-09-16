@@ -1,0 +1,77 @@
+#container {
+  margin: 0 1em 0 1em;
+}
+
+/*HOME*/
+#home {
+  height: auto;
+  border-bottom: 3px solid black;
+}
+
+#home h2 {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  margin-top: 3%;
+  font-family: "Righteous", cursive;
+  text-shadow: 5px 5px black;
+} /*Herzlich Willkommen*/
+
+#home h1 {
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  margin-top: 5%;
+  font-family: "Righteous", cursive;
+  text-shadow: 5px 5px black;
+} /*ASIA FUSION & BBQ*/
+
+#home h4 {
+  text-align: center;
+  font-size: 3em;
+  color: black;
+  top: 300px;
+  font-family: "Righteous", cursive;
+} /*HongKongHaus*/
+
+#home h3 {
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  font-family: "Righteous", cursive;
+  text-shadow: 5px 5px black;
+} /*Asian Food etc.*/
+
+/*Animation*/
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, black 50%, red 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
