@@ -1,0 +1,45 @@
+#impressum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  background-color: #171717;
+  font-family: "Righteous", cursive;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  font-size: 1.4em;
+}
+
+#impressum p {
+  margin-bottom: 0;
+}
+
+#impressum_link {
+  color: red;
+}
+#impressum_link:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  background-color: #1a1a1a;
+  font-family: "Righteous", cursive;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  font-size: 1.4em;
+}
+
+#hulong_link {
+  color: red;
+}
+#hulong_link:hover {
+  color: white;
+  transition: 0.5s;
+}

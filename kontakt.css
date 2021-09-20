@@ -1,0 +1,39 @@
+/*KONTAKT*/
+#kontakt {
+  height: auto;
+  background-color: #171717;
+  bottom: 0;
+}
+#kontakt h3 {
+  font-size: 3em;
+  margin: 0;
+  padding-top: 0.5em;
+  text-align: center;
+  color: white;
+  font-family: "Righteous", cursive;
+}
+#kontakt_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#kontakt div p {
+  font-size: 2em;
+  color: white;
+}
+#kontakt #instagram {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+#kontakt #tripadvisor {
+  font-size: 20px;
+  position: relative;
+  left: 0;
+  top: 50px;
+}
+
+#uberschrift {
+  color: red;
+  height: 0.2em;
+}
