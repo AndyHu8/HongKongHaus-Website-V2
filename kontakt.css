@@ -1,4 +1,3 @@
-/*KONTAKT*/
 #kontakt {
   height: auto;
   background-color: #171717;
@@ -12,25 +11,35 @@
   color: white;
   font-family: "Righteous", cursive;
 }
-#kontakt_container {
+#kontakt_container_first,
+#kontakt_container_second {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1.5%;
 }
 
 #kontakt div p {
-  font-size: 2em;
+  font-size: 2.5em;
   color: white;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 5%;
 }
-#kontakt #instagram {
-  font-size: 20px;
-  position: relative;
-  top: 10px;
+#SM_container {
+  display: flex;
+  justify-content: center;
 }
-#kontakt #tripadvisor {
-  font-size: 20px;
-  position: relative;
-  left: 0;
-  top: 50px;
+#SM_container a {
+  width: 9%;
+  display: inline;
+  margin: 2%;
+}
+
+#insta:hover,
+#tripadvisor:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 #uberschrift {
