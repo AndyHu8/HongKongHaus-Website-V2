@@ -1,0 +1,31 @@
+#buffet {
+  height: auto;
+  background-image: url("/pictures/33933.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top: 3px solid black;
+}
+#buffet h3 {
+  font-size: 3em;
+  margin: 0;
+  padding-top: 0.5em;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px black;
+  font-family: "Righteous", cursive;
+}
+
+#buffet div {
+  padding: 1em;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+#buffet p {
+  font-size: 2.5em;
+  color: white;
+  text-shadow: 5px 5px black;
+  text-align: center;
+  font-family: "Righteous", cursive;
+  padding: 1em;
+}
