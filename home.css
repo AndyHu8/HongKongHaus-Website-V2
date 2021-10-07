@@ -8,14 +8,14 @@ html {
 /*HOME*/
 #home {
   height: auto;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid red;
 }
 
 #home h2 {
   text-align: center;
   font-size: 3em;
   color: white;
-  margin-top: 3%;
+  margin-top: 10%;
   font-family: "Righteous", cursive;
   text-shadow: 5px 5px black;
 } /*Herzlich Willkommen*/
@@ -34,21 +34,10 @@ html {
   font-size: 3em;
   color: white;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   font-family: "Righteous", cursive;
   text-shadow: 5px 5px black;
 } /*HongKongHaus*/
-
-/*#home h3 {
-  letter-spacing: 5px;
-  text-align: center;
-  font-size: 3em;
-  color: white;
-  margin-top: 6%;
-  margin-bottom: 6%;
-  font-family: "Righteous", cursive;
-  text-shadow: 5px 5px black;
-} /*Asian Food etc.*/
 
 /*Animation*/
 .bg {
