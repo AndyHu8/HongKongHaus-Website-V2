@@ -48,7 +48,7 @@
 #bbq_vegi_combo_container #preis,
 #bbq_vegi_combo_container h2 {
   color: red;
-  text-shadow: 2px 2px white;
+  text-shadow: 1px 1px white;
 }
 
 /**********************************************************************************/
@@ -58,3 +58,27 @@
 /*********************************************************************************/
 
 /*BBQ-MENÜ*/
+#p_text,
+#barbecueMenu_container {
+  color: white;
+}
+
+#p_text {
+  margin-top: 5%;
+  font-size: 2em;
+  text-align: center;
+}
+
+#barbecueMenu_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 2em;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+#barbecueMenu_container p {
+  color: red;
+  text-shadow: 1px 1px white;
+}
