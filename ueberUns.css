@@ -1,6 +1,7 @@
 #ueberUns {
   height: auto;
   background-color: #242424;
+  font-family: "Righteous", cursive;
 }
 #ueberUns h3 {
   font-size: 3em;
@@ -8,13 +9,11 @@
   padding-top: 0.5em;
   text-align: center;
   color: white;
-  font-family: "Righteous", cursive;
 }
 
 #ueberUns h1 {
   text-align: center;
   margin-top: 5%;
-  font-family: "Righteous", cursive;
   font-size: 4em;
   color: red;
   text-shadow: 2px 2px white;
@@ -30,5 +29,30 @@
   text-align: center;
   font-size: 2em;
   padding: 8%;
-  font-family: "Righteous", cursive;
+}
+
+/*LAPTOP*/
+@media screen and (max-width: 1200px) {
+  #ueberUns h3 {
+    font-size: 2em;
+  }
+  #ueberUns h1 {
+    font-size: 3em;
+  }
+  #ueberUns p {
+    font-size: 2em;
+  }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+  #ueberUns h3 {
+    font-size: 1.5em;
+  }
+  #ueberUns h1 {
+    font-size: 2em;
+  }
+  #ueberUns p {
+    font-size: 1em;
+  }
 }

@@ -3,6 +3,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /*HOME*/
@@ -106,3 +107,29 @@ html {
   display: inline-block;
   font-size: 3em;
 } /*verschiebt etwas nach unten*/
+
+/*LAPTOP*/
+@media screen and (max-width: 1200px) {
+  #home h2 {
+    font-size: 2em;
+  }
+  #home h1 {
+    font-size: 3em;
+  }
+  #home h4 {
+    font-size: 2em;
+  }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+  #home h2 {
+    font-size: 1.5em;
+  }
+  #home h1 {
+    font-size: 2em;
+  }
+  #home h4 {
+    font-size: 1.5em;
+  }
+}

@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   border-top: 3px solid black;
+  font-family: "Righteous", cursive;
 }
 #buffet h3 {
   font-size: 3em;
@@ -12,7 +13,6 @@
   text-align: center;
   color: white;
   text-shadow: 5px 5px black;
-  font-family: "Righteous", cursive;
 }
 
 #buffet div {
@@ -26,6 +26,25 @@
   color: white;
   text-shadow: 5px 5px black;
   text-align: center;
-  font-family: "Righteous", cursive;
   padding: 1em;
+}
+
+/*LAPTOP*/
+@media screen and (max-width: 1200px) {
+  #buffet h3 {
+    font-size: 2em;
+  }
+  #buffet p {
+    font-size: 2em;
+  }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+  #buffet h3 {
+    font-size: 1.5em;
+  }
+  #buffet p {
+    font-size: 1em;
+  }
 }

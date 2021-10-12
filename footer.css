@@ -60,3 +60,21 @@ footer {
   color: white;
   transition: 0.5s;
 }
+
+/*LAPTOP*/
+@media screen and (max-width: 1200px) {
+  #impressum,
+  #flaticon,
+  footer {
+    font-size: 2em;
+  }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+  #impressum,
+  #flaticon,
+  footer {
+    font-size: 1em;
+  }
+}
